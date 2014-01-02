@@ -1,5 +1,5 @@
 {
-    "name": "carlosio/php-kata",
+    "name": "kata/php",
     "description": "PHP Kata skeleton",
     "keywords": ["kata","TDD"],
     "homepage": "https://github.com/carlosbuenosvinos/php-kata",
