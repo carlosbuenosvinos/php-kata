@@ -33,8 +33,8 @@ Then add your classes to 'src/Kata' and your test cases to
 
     php bin/phpunit
 
-Adder and AdderTest (TestCase examples)
-=======================================
+TestCase examples
+=================
 
 If you run 'php bin/phpunit' you will see the following output.
 
