@@ -26,7 +26,7 @@ Let's imagine you want to practice "Bowling game kata". You will need composer.
 Then, use "create-project" command to clone this project as a template
 and create a new one in your computer.
 
-    php composer.phar create-project kata/php bowling-kata
+    php composer.phar create-project kata/php bowling-kata dev-master
 
 Then add your classes to 'src/Kata' and your test cases to
 'src/Kata/Tests' and run 'php bin/phpunit' to run your tests.
