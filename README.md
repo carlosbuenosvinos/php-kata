@@ -1,5 +1,5 @@
-kata/php:
-=========
+kata/php
+========
 
 PHP skeleton for doing coding katas
 -----------------------------------
