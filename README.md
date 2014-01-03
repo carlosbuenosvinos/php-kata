@@ -14,12 +14,15 @@ You can find some to start practicing [here](http://codingdojo.org/cgi-bin/wiki.
 
 When you do programming katas, you use TDD. That's why I have included
 PHPUnit, Mockery, PHPSpec and Prophecy as composer dependencies. Choose
-the testing framework you feel more confortable (or play with both).
+the testing framework you feel more comfortable (or play with both).
 
 Practicing a kata
 =================
 
-Let's imagine you want to practice "Bowling game kata". You will need composer.
+Let's imagine you want to practice "Bowling game kata". Details about
+this kata can be found [here](http://codingdojo.org/cgi-bin/wiki.pl?KataBowling)
+
+You will need composer.
 
     curl -sS https://getcomposer.org/installer | php
 
