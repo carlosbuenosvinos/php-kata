@@ -20,7 +20,7 @@ Practicing a kata
 =================
 
 Let's imagine you want to practice "Bowling game kata". Details about
-this kata can be found [here](http://codingdojo.org/cgi-bin/wiki.pl?KataBowling)
+this kata can be found [here](http://codingdojo.org/cgi-bin/wiki.pl?KataBowling).
 
 You will need composer.
 
