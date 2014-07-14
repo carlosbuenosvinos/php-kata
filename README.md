@@ -10,7 +10,7 @@ in the martial arts. A code kata is an exercise in programming which
 helps a programmer hone their skills through practice and repetition.
 As of October 2011, Dave Thomas has published 21 different katas.
 
-You can find some to start practicing [here](http://codingdojo.org/cgi-bin/wiki.pl?KataCatalogue).
+You can find some to start practicing [here](http://codingdojo.org/cgi-bin/index.pl?KataCatalogue).
 
 When you do programming katas, you use TDD. That's why I have included
 PHPUnit, Mockery, PHPSpec and Prophecy as composer dependencies. Choose
