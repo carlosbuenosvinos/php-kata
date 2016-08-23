@@ -5,9 +5,9 @@
     "homepage": "https://github.com/carlosbuenosvinos/php-kata",
     "type": "library",
     "require-dev": {
-        "phpunit/phpunit": "3.7.*@dev",
+        "phpunit/phpunit": "5.5.*@dev",
         "mockery/mockery": "dev-master@dev",
-        "phpspec/phpspec": "2.0.*@dev"
+        "phpspec/phpspec": "3.0.*@dev"
     },
     "license": "MIT",
     "authors": [
@@ -17,8 +17,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Kata": "src/"
+        "psr-4": {
+            "Kata\\": "src/"
         }
     },
     "config": {
