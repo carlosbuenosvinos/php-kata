@@ -19,16 +19,13 @@
 
     <testsuites>
         <testsuite name="Kata Test Suite">
-            <directory>./src/Kata/Tests/</directory>
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>./src/Kata/</directory>
-            <exclude>
-                <directory>./src/Kata/*/Tests</directory>
-            </exclude>
+            <directory>./src/</directory>
         </whitelist>
     </filter>
 </phpunit>
