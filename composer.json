@@ -4,11 +4,6 @@
     "keywords": ["kata","TDD"],
     "homepage": "https://github.com/carlosbuenosvinos/php-kata",
     "type": "library",
-    "require-dev": {
-        "phpunit/phpunit": "5.5.*@dev",
-        "mockery/mockery": "dev-master@dev",
-        "phpspec/phpspec": "3.0.*@dev"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -24,5 +19,10 @@
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^7.2@dev",
+        "phpspec/phpspec": "^4.3@dev",
+        "mockery/mockery": "^1.0@dev"
+    }
 }
