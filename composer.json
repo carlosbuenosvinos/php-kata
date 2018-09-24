@@ -1,6 +1,6 @@
 {
-    "name": "kata/php",
-    "description": "PHP Kata skeleton",
+    "name": "code-kata/php",
+    "description": "PHP Kata skeleton based on kata/php ",
     "keywords": ["kata","TDD"],
     "homepage": "https://github.com/weatheredwatcher/php-kata",
     "type": "library",
@@ -13,7 +13,7 @@
     "authors": [
         {
             "name": "David Duggins",
-            "email": "hi@duggins.me"
+            "email": "hi@davidduggins.me"
         }
     ],
     "autoload": {
