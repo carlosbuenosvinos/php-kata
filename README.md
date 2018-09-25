@@ -35,7 +35,23 @@ and create a new one in your computer.
 Then add your classes to 'src/Kata' and your test cases to
 'src/Kata/Tests' and run 'php bin/phpunit' to run your tests.
 
+What I have done, is I have created a Kata/ folder and I setup a new Kata with a Rakefile
+containing the followind code:
+
+    task :create, [:project] do |task, args|
+      puts "Creating new Kata #{args.project}..."
+      puts `composer create-project code-kata/php  #{args.project} dev-master`  
+    end
+
+I also have in the repo a Rakefile that wraps around phpunit so instead of this:  
+
     php bin/phpunit
+    
+You can instead run this:
+ 
+    rake test
+    
+
 
 TestCase examples
 =================
