@@ -1,4 +1,4 @@
-kata/php
+code-kata/php
 ========
 
 PHP skeleton for doing coding katas
@@ -12,9 +12,10 @@ As of October 2011, Dave Thomas has published 21 different katas.
 
 You can find some to start practicing [here](http://codingdojo.org/cgi-bin/index.pl?KataCatalogue).
 
-When you do programming katas, you use TDD. That's why I have included
-PHPUnit, Mockery, PHPSpec and Prophecy as composer dependencies. Choose
-the testing framework you feel more comfortable (or play with both).
+This is a project framework based on [this](https://github.com/carlosbuenosvinos/php-kata).
+
+I've updated to use phpunit 7 and phpspec 4.  I also plan on updating this to my own specific
+style and way of running the katas.
 
 Practicing a kata
 =================
@@ -29,7 +30,7 @@ You will need composer.
 Then, use "create-project" command to clone this project as a template
 and create a new one in your computer.
 
-    php composer.phar create-project kata/php bowling-kata dev-master
+    php composer.phar create-project code-kata/php bowling-kata dev-master
 
 Then add your classes to 'src/Kata' and your test cases to
 'src/Kata/Tests' and run 'php bin/phpunit' to run your tests.
