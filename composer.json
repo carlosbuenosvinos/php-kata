@@ -24,5 +24,7 @@
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "dev"
+    "require": {
+        "codedungeon/phpunit-result-printer": "^0.20.3"
+    }
 }
