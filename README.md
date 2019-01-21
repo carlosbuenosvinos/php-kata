@@ -43,6 +43,10 @@ containing the followind code:
       puts `composer create-project code-kata/php  #{args.project} dev-master`  
     end
 
+Please make note: If you are using zsh for your shell, you will need to run the rake command 
+
+    rake create/[project_name/]
+
 I also have in the repo a Rakefile that wraps around phpunit so instead of this:  
 
     php bin/phpunit
