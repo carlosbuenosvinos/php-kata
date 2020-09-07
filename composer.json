@@ -6,8 +6,8 @@
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "^7",
-        "mockery/mockery": "dev-master@dev",
-        "codedungeon/phpunit-result-printer": "^0.20.3"
+        "codedungeon/phpunit-result-printer": "^0.20.3",
+        "mockery/mockery": "^1"
     },
     "license": "MIT",
     "authors": [
