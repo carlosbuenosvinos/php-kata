@@ -1,13 +1,13 @@
 {
     "name": "kata/php",
     "description": "PHP Kata skeleton",
-    "keywords": ["kata","TDD"],
+    "keywords": ["kata", "TDD"],
     "homepage": "https://github.com/carlosbuenosvinos/php-kata",
     "type": "library",
     "require-dev": {
-        "phpunit/phpunit": "5.5.*@dev",
-        "mockery/mockery": "dev-master@dev",
-        "phpspec/phpspec": "3.0.*@dev"
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5",
+        "phpspec/phpspec": "^7.0"
     },
     "license": "MIT",
     "authors": [
@@ -18,7 +18,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kata\\": "src/"
+            "Kata\\": "src/",
+            "Kata\\Tests\\": "tests/"
         }
     },
     "config": {

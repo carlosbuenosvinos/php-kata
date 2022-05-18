@@ -1,18 +1,16 @@
 <?php
+
 namespace Kata\Tests;
 
 use Kata\Adder;
+use PHPUnit\Framework\TestCase;
 
-class AdderTest extends \PHPUnit_Framework_TestCase
+class AdderTest extends TestCase
 {
     /**
-     * @test
      * @dataProvider validSumsProvider
-     * @param int $a
-     * @param int $b
-     * @param $expectedResult
      */
-    public function validSums($a, $b, $expectedResult)
+    public function testValidSums(?int $a, ?int $b, int $expectedResult): void
     {
         $this->assertEquals(
             $expectedResult,
@@ -20,7 +18,7 @@ class AdderTest extends \PHPUnit_Framework_TestCase
         );
     }
 
-    public function validSumsProvider()
+    public function validSumsProvider(): array
     {
         return [
             [null, null, 0],
