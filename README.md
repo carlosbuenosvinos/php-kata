@@ -31,26 +31,25 @@ and create a new one in your computer.
 
     php composer.phar create-project kata/php bowling-kata dev-master
 
-Then add your classes to 'src/Kata' and your test cases to
-'src/Kata/Tests' and run 'php bin/phpunit' to run your tests.
+Then add your classes to `src/Kata` and your test cases to
+`src/Kata/Tests` and run `php bin/phpunit` to run your tests.
 
     php bin/phpunit
 
 TestCase examples
 =================
 
-If you run 'php bin/phpunit' you will see the following output.
+If you run `php bin/phpunit` you will see the following output.
 
-    PHPUnit 3.8-gc4f2bcd by Sebastian Bergmann.
+    PHPUnit 9.5.20
     
-    Configuration read from /Users/carlosbuenosvinos/Documents/Web/bowling/phpunit.xml
+    ...                 3 / 3 (100%)
     
-    ...
+    Time: 00:00.003, Memory: 6.00 MB
     
-    Time: 91 ms, Memory: 1.75Mb
     OK (3 tests, 3 assertions)
 
 That's because you will find one class and its TestCase in the project
 in order to help you. You can delete them.
 
-Adder is a class that adds two numbers and AdderTest tests that.
+`Adder` is a class that adds two numbers and `AdderTest` tests that.

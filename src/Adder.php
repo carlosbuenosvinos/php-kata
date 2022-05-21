@@ -1,18 +1,10 @@
 <?php
+
 namespace Kata;
 
-/**
- * Class Adder
- * @package Kata
- */
 class Adder
 {
-    /**
-     * @param int $first
-     * @param int $second
-     * @return int
-     */
-    public function add($first, $second)
+    public function add(?int $first, ?int $second): int
     {
         return (int) $first + (int) $second;
     }
